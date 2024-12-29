@@ -14,7 +14,7 @@ const App = () => {
   };
 
   const handleDelete = (index) => {
-    // _, i Quiere decir que no quiero usar el unit, index del metodo Filter 
+    // _, i Quiere decir que no quiero usar el << unit, index >> del metodo Filter 
     // Solo quiero usar el index, o abreviado ( I ) 
     setTodos(todos.filter((_, i) => i !== index));
   };
@@ -67,10 +67,6 @@ const App = () => {
           <span>{todos.length} Item left</span>
         </ul>
         
-      <div>
-
-      </div>
-      
       </div>
       
     </div>
